@@ -1,0 +1,26 @@
+{
+  "classes": [
+    "no_seatbelt",
+    "seatbelt"
+  ],
+  "image_size": 224,
+  "image_mean": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "image_std": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "no_seatbelt_threshold": 0.05,
+  "base_model": "facebook/deit-small-patch16-224",
+  "test_metrics": {
+    "macro_f1": 1.0,
+    "accuracy": 1.0,
+    "no_seatbelt_recall": 1.0,
+    "no_seatbelt_precision": 1.0,
+    "n_test_images": 181
+  }
+}

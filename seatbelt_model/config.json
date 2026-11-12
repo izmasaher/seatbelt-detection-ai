@@ -1,0 +1,33 @@
+{
+  "architectures": [
+    "ViTForImageClassification"
+  ],
+  "attention_probs_dropout_prob": 0.0,
+  "dtype": "float32",
+  "encoder_stride": 16,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.0,
+  "hidden_size": 384,
+  "id2label": {
+    "0": "no_seatbelt",
+    "1": "seatbelt"
+  },
+  "image_size": 224,
+  "initializer_range": 0.02,
+  "intermediate_size": 1536,
+  "label2id": {
+    "no_seatbelt": 0,
+    "seatbelt": 1
+  },
+  "layer_norm_eps": 1e-12,
+  "model_type": "vit",
+  "no_seatbelt_threshold": 0.05,
+  "num_attention_heads": 6,
+  "num_channels": 3,
+  "num_hidden_layers": 12,
+  "patch_size": 16,
+  "pooler_act": "tanh",
+  "pooler_output_size": 384,
+  "qkv_bias": true,
+  "transformers_version": "5.22.1"
+}
